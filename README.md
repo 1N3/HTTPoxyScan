@@ -1,5 +1,9 @@
-# HTTPoxy Exploit Scanner by 1N3 @CrowdShield
+# HTTPoxy Exploit Scanner 
+
+by 1N3 @CrowdShield
+
 Last Updated: 20160720
+
 https://crowdshield.com
 
 ## ABOUT: 
