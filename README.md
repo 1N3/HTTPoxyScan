@@ -1,10 +1,7 @@
 # HTTPoxy Exploit Scanner 
 
-by 1N3 @CrowdShield
-
+by 1N3 @CrowdShield (https://crowdshield.com)
 Last Updated: 20160720
-
-https://crowdshield.com
 
 ## ABOUT: 
 PoC/Exploit scanner to scan common CGI files on a target URL for the HTTPoxy vulnerability. Httpoxy is a set of vulnerabilities that affect application code running in CGI, or CGI-like environments. For more details, go to https://httpoxy.org.
