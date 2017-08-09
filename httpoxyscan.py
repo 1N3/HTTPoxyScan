@@ -81,8 +81,11 @@ def main(argv):
 	req = urllib2.Request(req_url)
 	req.add_header('Proxy', listen_ip + ":" + listen_port)
 	req.add_header('User-Agent', 'HTTPoxyScan by 1N3')
-	resp = urllib2.urlopen(req)
-	content = resp.read()
+	try:
+		resp = urllib2.urlopen(req, context=ctx)
+		content = resp.read()
+	except Exception,e:
+		print "Exception: "+str(e)	
 	num += 1
 	
     print bcolors.WARNING + "[*] Scan complete!" + bcolors.ENDC
